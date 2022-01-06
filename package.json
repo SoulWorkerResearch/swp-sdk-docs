@@ -1,0 +1,26 @@
+{
+  "name": "swp-sdk-docs",
+  "version": "1.0.0",
+  "description": "SoulWokrer software development kit documentation",
+  "main": "dist/main.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoulWorkerResearch/swp-sdk-docs.git"
+  },
+  "keywords": [
+    "soulworker"
+  ],
+  "author": "sawich",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/SoulWorkerResearch/swp-sdk-docs/issues"
+  },
+  "homepage": "https://github.com/SoulWorkerResearch/swp-sdk-docs#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.32"
+  }
+}
