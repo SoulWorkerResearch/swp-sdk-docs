@@ -12,4 +12,5 @@
 - Start Visual Studio and create a C++ project `Dynamic-Linking Library (DLL)`
 
 ## Important
+
 - SoulWorker is an x32(x86) application!!! Do not try to build plugins for x64.
