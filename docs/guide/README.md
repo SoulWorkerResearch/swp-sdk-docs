@@ -6,6 +6,7 @@
 
 ## Prerequisites
 
-- Download debug build of [plugin loader](https://github.com/SoulWorkerResearch/swp-loader/releases)
+- I strongly recommend that you use the debug build of [plugin loader](https://github.com/SoulWorkerResearch/swp-loader/releases)
   > Debug builds have postfix Debug  
   > As example: 1.0.0.1660643635-alpha-Debug.zip
+- Start Visual Studio and create a C++ project `Dynamic-Linking Library (DLL)`
