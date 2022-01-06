@@ -10,3 +10,6 @@
   > Debug builds have postfix Debug  
   > As example: 1.0.0.1660643635-alpha-Debug.zip
 - Start Visual Studio and create a C++ project `Dynamic-Linking Library (DLL)`
+
+## Important
+- SoulWorker is an x32(x86) application!!! Do not try to build plugins for x64.
