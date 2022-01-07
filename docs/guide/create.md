@@ -28,7 +28,7 @@
 class you_plugin_name final : public sdk::plugin::base<you_plugin_name>
 {
   // This method will be called when plugin redy to execute.
-  virtual auto on_ready(void) const -> void override
+  auto on_ready(void) const -> void override
   {
   }
 };
