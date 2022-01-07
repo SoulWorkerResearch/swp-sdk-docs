@@ -23,9 +23,9 @@
 - **Step 0:** Create main class
 
 ```cpp
-#include <sdk/plugin/plugin_base.hpp>
+#include <swpsdk/plugin/plugin_base.hpp>
 
-class you_plugin_name final : public sdk::plugin::base<you_plugin_name>
+class you_plugin_name final : public swpsdk::plugin::base<you_plugin_name>
 {
   // This method will be called when plugin redy to execute.
   auto on_ready(void) const -> void override
@@ -37,10 +37,10 @@ class you_plugin_name final : public sdk::plugin::base<you_plugin_name>
 - **Step 1:** Register plugin
 
 ```cpp
-#include <sdk/plugin/plugin_emplace.hpp>
+#include <swpsdk/plugin/plugin_emplace.hpp>
 
-auto sdk::plugin::emplace(void)->sdk::plugin::info* {
-  return new sdk::plugin::info{
+auto swpsdk::plugin::emplace(void)->swpsdk::plugin::info* {
+  return new swpsdk::plugin::info{
     // write here game version
     .game_version = semver::version(),
 
