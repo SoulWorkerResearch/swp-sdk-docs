@@ -42,10 +42,10 @@ class you_plugin_name final : public swpsdk::plugin::base<you_plugin_name>
 auto swpsdk::plugin::attach(void)->swpsdk::plugin::info* {
   return new swpsdk::plugin::info{
     // write here game version
-    .game_version = game::version{},
+    .game_version = game::version(),
 
     // write here version of you plugin
-    .plugin_version = semver::version{},
+    .plugin_version = semver::version(),
 
     // base class have singleton instance of you class
     .instance = you_plugin_name::instance()
