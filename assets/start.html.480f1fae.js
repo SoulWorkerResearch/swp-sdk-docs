@@ -1,0 +1,1 @@
+const e={key:"v-621628ba",path:"/guide/start.html",title:"Start plugin",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Debug",slug:"debug",children:[]}],git:{updatedTime:1649793077e3,contributors:[{name:"sawich",email:"sawich@angeldev.org",commits:1}]},filePathRelative:"guide/start.md"};export{e as data};

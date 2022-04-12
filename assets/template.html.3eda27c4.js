@@ -1,0 +1,1 @@
+const e={key:"v-7b48519a",path:"/guide/template.html",title:"Template",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1649793077e3,contributors:[{name:"sawich",email:"sawich@angeldev.org",commits:1}]},filePathRelative:"guide/template.md"};export{e as data};
