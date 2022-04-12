@@ -8,7 +8,6 @@ After installation, it is necessary to add the core dependencies used.
 
 | Option                                              | Description         |
 | --------------------------------------------------- | ------------------- |
-| [neargye-semver](https://github.com/Neargye/semver) | used for versioning |
 | [spdlog](https://github.com/gabime/spdlog)          | used for logging    |
 
 ## Manifest
@@ -19,7 +18,7 @@ The final manifest file should look something like this.
 {
   "name": "you plugin name",
   "version": "1.0.0",
-  "dependencies": ["spdlog", "neargye-semver"]
+  "dependencies": ["spdlog"]
 }
 ```
 

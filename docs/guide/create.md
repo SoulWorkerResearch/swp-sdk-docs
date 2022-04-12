@@ -24,12 +24,15 @@
 
 ```cpp
 #include <swpsdk/plugin/plugin_base.hpp>
+#include <spdlog/spdlog.h>
 
 class you_plugin_name final : public swpsdk::plugin::base<you_plugin_name>
 {
   // This method will be called when plugin redy to execute.
-  auto on_ready(void) const -> void override
+  auto main(void) const -> void override
   {
+    // Log message
+    spdlog::info("hello, world!");
   }
 };
 ```
@@ -37,18 +40,18 @@ class you_plugin_name final : public swpsdk::plugin::base<you_plugin_name>
 - **Step 1:** Register plugin
 
 ```cpp
-#include <swpsdk/plugin/plugin_attach.hpp>
+#include <swpsdk/plugin/attach.hpp>
 
 auto swpsdk::plugin::attach(void)->swpsdk::plugin::info* {
   return new swpsdk::plugin::info{
-    // write here game version
-    .game_version = game::version(),
+    // Write here game version
+    .game_version = version{ 1, 2, 3, 4 },
 
-    // write here version of you plugin
-    .plugin_version = semver::version(),
+    // Write here version of you plugin
+    .plugin_version = version{ 1, 2, 3, 4 },
 
-    // base class have singleton instance of you class
-    .instance = you_plugin_name::instance()
+    // Base class have singleton instance of you class
+    .instance = &you_plugin_name::instance()
   };
 }
 ```
