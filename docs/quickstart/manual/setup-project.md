@@ -47,7 +47,7 @@ auto swpsdk::plugin::attach(void)->swpsdk::plugin::info* {
     // Write here game version
     .game_version = version{ 1, 2, 3, 4 },
 
-    // Write here version of you plugin
+    // Write here version of your plugin
     .plugin_version = version{ 1, 2, 3, 4 },
 
     // Base class have singleton instance of you class
